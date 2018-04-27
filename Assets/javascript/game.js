@@ -44,7 +44,7 @@ var computerChoices = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l
 			"<p>Guesses Left: " + numGuesses + "</p>" +
 			"<p>Your Guesses so far: " + guessChoices.join(", ") + "</p>";
 
-			document.querySelector("#game").innerHTML = html;
+			document.querySelector(".jumbotron").innerHTML = html;
 
 			
 			}
